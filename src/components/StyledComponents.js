@@ -14,6 +14,23 @@ export const Container = styled.div`
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 `;
 
+export const GoBackButton = styled.button`
+  background-color: #2508c9; 
+  color: white; 
+  font-size: 18px; 
+  padding: 15px 30px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  
+  display: block;
+  margin: 50px auto; 
+
+  &:hover {
+    background-color: #D2B04C; 
+  }
+`;
 
 export const HeaderTitle = styled.h1`
   font-size: 3rem;
